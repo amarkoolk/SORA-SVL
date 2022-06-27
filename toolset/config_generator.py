@@ -71,9 +71,9 @@ class config_generator(object):
         self.config_template['data']['shareRequests']= self.vehicle_asset['data']['shareRequests']
         self.config_template['data']['favoredBy']    = self.vehicle_asset['data']['favoredBy']
         self.config_template['data']['sharedWith']   = self.vehicle_asset['data']['sharedWith']
-        self.config_template['data']['createdAt']     = now
-        self.config_template['data']['updatedAt']     = now
-        self.config_template['data']['bridge']        = dict()
+        self.config_template['data']['createdAt']    = now
+        self.config_template['data']['updatedAt']    = now
+        self.config_template['data']['bridge']       = dict()
         try:
             self.config_template['data']['bridge']['id']                 = self.bridge_asset['data']['id']
             self.config_template['data']['bridge']['name']               = self.bridge_asset['data']['name']
@@ -113,7 +113,7 @@ class config_generator(object):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--vehicle_id', type=str, help='vehicle cid')
-    parser.add_argument('--bridge_id', type=str, help='vehicle cid')
+    parser.add_argument('--bridge_id', type=str, help='bridge cid')
     parser.add_argument('--sensor_config', type=str, help='name of configuration file')
     parser.add_argument('--config_name', type=str, help='name of configuration')
     parser.add_argument('--cid', type=str, help='unique id for database')
