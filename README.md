@@ -27,6 +27,8 @@ As an effort to keep the tool available for future researches, a draft for a loc
 3. Download assets needed from [Google Drive](https://drive.google.com/drive/folders/1bv02d29z4lSB9SWzCBTUt0GjAb876oSR?usp=sharing) and unzip them in `server/assets`. (preview, maps, plugins, vehicles, hdmaps)
 > Since the compressed file for entire maps directory is too large, you will have to manually download map asset individually from the Google Drive folder.
 > Also, when downloading individual asset file, make sure there is no file extension. Google sometimes automatically adds ".zip" to the end, make sure to remove this from the filename.
+> 
+> UPDATE 2022-06-30: WISE provides geojson for some of the maps. To access those geojson, download `geojson.json` from Google Drive, and then import them into MongoDB.
 
 4. Create `.env` file for server and client following the template (should be same as template, change if you know what you are doing) (The template refers to `server/.env.template` and `client/.env.template`)
 5. Run `docker-compose up --build -d`
@@ -47,6 +49,10 @@ As an effort to keep the tool available for future researches, a draft for a loc
 - [ ] Allow creating new vehicle sensor configurations
 - [ ] Allow website to reflect client connection status
 - [ ] Add cluster feature to the cloud
+
+## Known Issues
+
+- It is possible that permission settings related to Docker can cause project to fail (unable to load preview, unable to download assets). See https://github.com/YuqiHuai/SORA-SVL/issues/11#issuecomment-1173008100
 
 ## Contributing
 

@@ -27,20 +27,23 @@ services:
     container_name: sorasvl-router
     build:
       context: ./nginx
+    depends_on:
+      - server
+      - client
     ports:
       - "80:80"
     networks:
       - sorasvl
-  
+
   # MongoDB
   mongo:
     container_name: sorasvl-mongo
-    depends_on:
-      - nginx
+    volumes:
+      - ./mongo/data:/data/db
     build:
       context: ./mongo
     ports:
-      - "27017:27017"
+      - "28018:27017"
     networks:
       - sorasvl
 
