@@ -5550,7 +5550,6 @@
   "name": "RF2_TMS",
   "endpoint": "/api/v1/maps/6f78dc72-952c-47fd-889a-96c4a4049795",
   "data": {
-    "assetGuid": "e862d72c-3fca-4ff8-9050-9df0a1ab254b",
     "isShared": false,
     "isFavored": false,
     "isOwned": false,
@@ -5575,7 +5574,8 @@
     "description": "This map is a simple road setting used for basic test cases. This is a convenient map for running basic scenarios for your autonomous driving system modules.",
     "imageUrl": "/api/v1/assets/download/preview/1ff90ade-4e55-4541-a19b-48f2659f48da",
     "lastVersionDate": "2021-10-01T20:56:53.000Z",
-    "lastAssetGuid": "e862d72c-3fca-4ff8-9050-9df0a1ab254b",
+    "assetGuid": "ae6e9a89-ce66-45ba-9701-ac8033b2c0b9",
+    "lastAssetGuid": "ae6e9a89-ce66-45ba-9701-ac8033b2c0b9",
     "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
     "supportedPlatforms": null,
     "version": null,
