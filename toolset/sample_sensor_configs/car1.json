@@ -3,8 +3,8 @@
     "params": {
       "Topic": "/lgsvl/vehicle_1/navsat_top",
       "IgnoreMapOrigin": false,
-      "Frame": "vehicle_1/gps_top",
-      "Frequency": 20
+      "Frame": "vehicle_1_gps_top",
+      "Frequency": 80
     },
     "transform": {
       "x": 0,
@@ -61,8 +61,8 @@
     "params": {
       "Topic": "/lgsvl/vehicle_1/navsat_bottom",
       "IgnoreMapOrigin": false,
-      "Frame": "vehicle_1/gps_bottom",
-      "Frequency": 20
+      "Frame": "vehicle_1_gps_bottom",
+      "Frequency": 80
     },
     "transform": {
       "x": 0,
@@ -121,11 +121,11 @@
       "LaserCount": 64,
       "MeasurementsPerRotation": 750,
       "CenterAngle": 2.5,
-      "RotationFrequency": 15,
+      "RotationFrequency": 20,
       "MaxDistance": 200,
       "HorizontalAngle": 120,
       "Topic": "/lgsvl/vehicle_1/front_lidar_raw",
-      "Frame": "vehicle_1/luminar_front",
+      "Frame": "vehicle_1_luminar_front",
       "ForwardAngle": 0,
       "PointSize": 1.75
     },
@@ -186,11 +186,11 @@
       "LaserCount": 64,
       "MeasurementsPerRotation": 750,
       "CenterAngle": 2.5,
-      "RotationFrequency": 15,
+      "RotationFrequency": 20,
       "MaxDistance": 200,
       "HorizontalAngle": 120,
       "Topic": "/lgsvl/vehicle_1/left_lidar_raw",
-      "Frame": "vehicle_1/luminar_left",
+      "Frame": "vehicle_1_luminar_left",
       "ForwardAngle": 0,
       "PointSize": 1.75
     },
@@ -251,11 +251,11 @@
       "LaserCount": 64,
       "MeasurementsPerRotation": 750,
       "CenterAngle": 2.5,
-      "RotationFrequency": 15,
+      "RotationFrequency": 20,
       "MaxDistance": 200,
       "HorizontalAngle": 120,
       "Topic": "/lgsvl/vehicle_1/right_lidar_raw",
-      "Frame": "vehicle_1/luminar_right",
+      "Frame": "vehicle_1_luminar_right",
       "ForwardAngle": 0,
       "PointSize": 1.75
     },
@@ -314,7 +314,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_1/radar_front",
-      "Frame": "vehicle_1/radar_front"
+      "Frame": "vehicle_1_radar_front"
     },
     "transform": {
       "x": 0,
@@ -371,7 +371,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_1/radar_rear",
-      "Frame": "vehicle_1/radar_rear"
+      "Frame": "vehicle_1_radar_rear"
     },
     "transform": {
       "x": 0,
@@ -428,7 +428,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_1/radar_port",
-      "Frame": "vehicle_1/radar_port"
+      "Frame": "vehicle_1_radar_port"
     },
     "transform": {
       "x": -0.213,
@@ -485,7 +485,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_1/radar_starboard",
-      "Frame": "vehicle_1/radar_starboard"
+      "Frame": "vehicle_1_radar_starboard"
     },
     "transform": {
       "x": 0.213,
@@ -543,7 +543,7 @@
       "Topic": "/lgsvl/vehicle_1/sensor/odom",
       "Frequency": 100,
       "Frame": "map",
-      "ChildFrame": "vehicle_1/base_link",
+      "ChildFrame": "vehicle_1_base_link",
       "IgnoreMapOrigin": true
     },
     "name": "GPS Odometry Sensor",
@@ -592,7 +592,7 @@
   {
     "params": {
       "Topic": "/lgsvl/vehicle_1/control",
-      "Frame": "vehicle_1/base_link",
+      "Frame": "vehicle_1_base_link",
       "UseAutomaticTransmission": false,
       "UseNormalizedSteerAngle": true
     },

@@ -3,8 +3,8 @@
     "params": {
       "Topic": "/lgsvl/vehicle_2/navsat_top",
       "IgnoreMapOrigin": false,
-      "Frame": "vehicle_2/gps_top",
-      "Frequency": 20
+      "Frame": "vehicle_2_gps_top",
+      "Frequency": 80
     },
     "transform": {
       "x": 0,
@@ -61,8 +61,8 @@
     "params": {
       "Topic": "/lgsvl/vehicle_2/navsat_bottom",
       "IgnoreMapOrigin": false,
-      "Frame": "vehicle_2/gps_bottom",
-      "Frequency": 20
+      "Frame": "vehicle_2_gps_bottom",
+      "Frequency": 80
     },
     "transform": {
       "x": 0,
@@ -125,7 +125,7 @@
       "MaxDistance": 200,
       "HorizontalAngle": 120,
       "Topic": "/lgsvl/vehicle_2/front_lidar_raw",
-      "Frame": "vehicle_2/luminar_front",
+      "Frame": "vehicle_2_luminar_front",
       "ForwardAngle": 0,
       "PointSize": 1.75
     },
@@ -190,7 +190,7 @@
       "MaxDistance": 200,
       "HorizontalAngle": 120,
       "Topic": "/lgsvl/vehicle_2/left_lidar_raw",
-      "Frame": "vehicle_2/luminar_left",
+      "Frame": "vehicle_2_luminar_left",
       "ForwardAngle": 0,
       "PointSize": 1.75
     },
@@ -255,7 +255,7 @@
       "MaxDistance": 200,
       "HorizontalAngle": 120,
       "Topic": "/lgsvl/vehicle_2/right_lidar_raw",
-      "Frame": "vehicle_2/luminar_right",
+      "Frame": "vehicle_2_luminar_right",
       "ForwardAngle": 0,
       "PointSize": 1.75
     },
@@ -314,7 +314,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_2/radar_front",
-      "Frame": "vehicle_2/radar_front"
+      "Frame": "vehicle_2_radar_front"
     },
     "transform": {
       "x": 0,
@@ -371,7 +371,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_2/radar_rear",
-      "Frame": "vehicle_2/radar_rear"
+      "Frame": "vehicle_2_radar_rear"
     },
     "transform": {
       "x": 0,
@@ -428,7 +428,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_2/radar_port",
-      "Frame": "vehicle_2/radar_port"
+      "Frame": "vehicle_2_radar_port"
     },
     "transform": {
       "x": -0.213,
@@ -485,7 +485,7 @@
     "params": {
       "Frequency": 10,
       "Topic": "/lgsvl/vehicle_2/radar_starboard",
-      "Frame": "vehicle_2/radar_starboard"
+      "Frame": "vehicle_2_radar_starboard"
     },
     "transform": {
       "x": 0.213,
@@ -544,7 +544,7 @@
       "Topic": "/lgsvl/vehicle_2/sensor/odom",
       "Frame": "map",
       "IgnoreMapOrigin": true,
-      "ChildFrame": "vehicle_2/base_link"
+      "ChildFrame": "vehicle_2_base_link"
     },
     "name": "GPS Odometry Sensor",
     "parent": null,
