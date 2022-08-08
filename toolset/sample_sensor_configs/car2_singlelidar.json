@@ -1,0 +1,506 @@
+[
+  {
+    "params": {
+      "Topic": "/lgsvl/vehicle_2/navsat_top",
+      "IgnoreMapOrigin": false,
+      "Frame": "vehicle_2_gps_top",
+      "Frequency": 80
+    },
+    "transform": {
+      "x": 0,
+      "y": -0.0703,
+      "z": 1.606,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "GPS Top",
+    "parent": null,
+    "pluginId": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+    "sortKey": 0,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+      "name": "GPS Device Sensor",
+      "type": "GpsSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the GPS location of the vehicle in Longitude/Latitude and Northing/Easting coordintates.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-device for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/f73de137-d067-47db-9fb7-242aae49b2ad",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "GpsSensor"
+  },
+  {
+    "params": {
+      "Topic": "/lgsvl/vehicle_2/navsat_bottom",
+      "IgnoreMapOrigin": false,
+      "Frame": "vehicle_2_gps_bottom",
+      "Frequency": 80
+    },
+    "transform": {
+      "x": 0,
+      "y": -0.1428,
+      "z": 1.606,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "GPS Bottom",
+    "parent": null,
+    "pluginId": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+    "sortKey": 1,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+      "name": "GPS Device Sensor",
+      "type": "GpsSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the GPS location of the vehicle in Longitude/Latitude and Northing/Easting coordintates.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-device for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/f73de137-d067-47db-9fb7-242aae49b2ad",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "GpsSensor"
+  },
+  {
+    "params": {
+      "LaserCount": 16,
+      "MinDistance": 2,
+      "MaxDistance": 100,
+      "RotationFrequency": 10,
+      "MeasurementsPerRotation": 360,
+      "FieldOfView": 20,
+      "CenterAngle": 0,
+      "Compensated": true,
+      "PointColor": "#ff000000",
+      "Topic": "/lgsvl/vehicle_2/lidar",
+      "Frame": "vehicle_2_lidar_front"
+    },
+    "transform": {
+      "x": 0.022,
+      "y": 0.7095140996291294,
+      "z": 1.309972929952007,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "LidarFront",
+    "parent": null,
+    "pluginId": "b30d0478-8c7b-4687-bfc2-b3cdb3f5faff",
+    "sortKey": 7,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "b30d0478-8c7b-4687-bfc2-b3cdb3f5faff",
+      "name": "Lidar Sensor",
+      "type": "LidarSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor returns a point cloud after 1 revolution.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#lidar for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/dd44a969-c038-4966-a39f-a445ab3b6c00",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "LidarSensor"
+  },
+  {
+    "params": {
+      "Frequency": 10,
+      "Topic": "/lgsvl/vehicle_2/radar_front",
+      "Frame": "vehicle_2_radar_front"
+    },
+    "transform": {
+      "x": 0,
+      "y": 0.594,
+      "z": 1.784,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "Radar Front",
+    "parent": null,
+    "pluginId": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+    "sortKey": 5,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+      "name": "Radar Sensor",
+      "type": "RadarSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the objects detected by the radar. Detected objects are visualized with a box colored by their type:\n\t[\n\t\t\"Car\": \"Green\"\n\t\t\"Bicycle\": \"Cyan\"\n\t\t\"Agent\": \"Magenta\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#radar for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/7404a9f8-4ac2-42da-b416-10fb211d24a9",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "RadarSensor"
+  },
+  {
+    "params": {
+      "Frequency": 10,
+      "Topic": "/lgsvl/vehicle_2/radar_rear",
+      "Frame": "vehicle_2_radar_rear"
+    },
+    "transform": {
+      "x": 0,
+      "y": 0.107,
+      "z": -0.768,
+      "pitch": 0,
+      "yaw": -180,
+      "roll": 0
+    },
+    "name": "Radar Rear",
+    "parent": null,
+    "pluginId": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+    "sortKey": 6,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+      "name": "Radar Sensor",
+      "type": "RadarSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the objects detected by the radar. Detected objects are visualized with a box colored by their type:\n\t[\n\t\t\"Car\": \"Green\"\n\t\t\"Bicycle\": \"Cyan\"\n\t\t\"Agent\": \"Magenta\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#radar for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/7404a9f8-4ac2-42da-b416-10fb211d24a9",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "RadarSensor"
+  },
+  {
+    "params": {
+      "Frequency": 10,
+      "Topic": "/lgsvl/vehicle_2/radar_port",
+      "Frame": "vehicle_2_radar_port"
+    },
+    "transform": {
+      "x": -0.213,
+      "y": 0.406,
+      "z": 2.032,
+      "pitch": 0,
+      "yaw": -90,
+      "roll": 0
+    },
+    "name": "Radar Port",
+    "parent": null,
+    "pluginId": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+    "sortKey": 7,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+      "name": "Radar Sensor",
+      "type": "RadarSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the objects detected by the radar. Detected objects are visualized with a box colored by their type:\n\t[\n\t\t\"Car\": \"Green\"\n\t\t\"Bicycle\": \"Cyan\"\n\t\t\"Agent\": \"Magenta\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#radar for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/7404a9f8-4ac2-42da-b416-10fb211d24a9",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "RadarSensor"
+  },
+  {
+    "params": {
+      "Frequency": 10,
+      "Topic": "/lgsvl/vehicle_2/radar_starboard",
+      "Frame": "vehicle_2_radar_starboard"
+    },
+    "transform": {
+      "x": 0.213,
+      "y": 0.406,
+      "z": 2.032,
+      "pitch": 0,
+      "yaw": 90,
+      "roll": 0
+    },
+    "name": "Radar Starboard",
+    "parent": null,
+    "pluginId": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+    "sortKey": 8,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "215b7d1e-7ad3-4fe6-b3d9-db0e229eb0a4",
+      "name": "Radar Sensor",
+      "type": "RadarSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the objects detected by the radar. Detected objects are visualized with a box colored by their type:\n\t[\n\t\t\"Car\": \"Green\"\n\t\t\"Bicycle\": \"Cyan\"\n\t\t\"Agent\": \"Magenta\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#radar for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/7404a9f8-4ac2-42da-b416-10fb211d24a9",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "RadarSensor"
+  },
+  {
+    "params": {
+      "Frequency": 100,
+      "Topic": "/lgsvl/vehicle_2/sensor/odom",
+      "Frame": "map",
+      "IgnoreMapOrigin": true,
+      "ChildFrame": "vehicle_2_base_link"
+    },
+    "name": "GPS Odometry Sensor",
+    "parent": null,
+    "pluginId": "483f7b90-2f76-42ee-82c1-22f02f25f924",
+    "sortKey": 9,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "483f7b90-2f76-42ee-82c1-22f02f25f924",
+      "name": "GPS Odometry Sensor",
+      "type": "GpsOdometrySensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the GPS location of the vehicle in Longitude/Latitude and Northing/Easting coordintates and the vehicle velocity.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-odometry for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "imageUrl": "/api/v1/assets/download/preview/d672c52e-0e1a-494e-a95c-fc52593a119d",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "GpsOdometrySensor"
+  },
+  {
+    "params": {
+      "UseNormalizedSteerAngle": true,
+      "UseAutomaticTransmission": false,
+      "Topic": "/lgsvl/vehicle_2/control"
+    },
+    "name": "GAIA Control Sensor",
+    "parent": null,
+    "pluginId": "18f2f434-7c04-4334-9537-a03e51672aaa",
+    "sortKey": 10,
+    "plugin": {
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": true,
+      "accessInfo": {
+        "userAccessType": "own"
+      },
+      "supportedSimulatorVersions": [
+        "2021.3",
+        "2021.2",
+        "2021.2.2",
+        "2021.1",
+        "2021.1.1"
+      ],
+      "id": "18f2f434-7c04-4334-9537-a03e51672aaa",
+      "name": "GAIA Control Sensor",
+      "type": "LGSVLControlSensor",
+      "category": "sensor",
+      "ownerId": "3cb34604-a624-4059-86fb-c1d73cc546a6",
+      "accessType": "private",
+      "description": "GAIA Control Sensor",
+      "copyright": "Amar Kulkarni",
+      "licenseName": "User Content",
+      "imageUrl": "/api/v1/assets/download/preview/e9ec931d-1523-493e-a631-16c8f918debe",
+      "status": "active",
+      "owner": {
+        "id": "3cb34604-a624-4059-86fb-c1d73cc546a6",
+        "firstName": "Amar",
+        "lastName": "Kulkarni"
+      },
+      "shareRequests": []
+    },
+    "type": "LGSVLControlSensor"
+  }
+]
